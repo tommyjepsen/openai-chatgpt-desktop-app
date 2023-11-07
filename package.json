@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "build-mac": "electron-packager . ChatGPT --platform=darwin --arch=arm64,x64 --icon=assets/icons/app-icon.icns --overwrite"
+    "build-intel": "electron-packager . ChatGPT --platform=darwin --arch=x64 --icon=assets/icons/app-icon.icns --overwrite",
+    "build-silicon": "electron-packager . ChatGPT --platform=darwin --arch=arm64 --icon=assets/icons/app-icon.icns --overwrite"
   },
   "keywords": [
     "ai",
@@ -17,7 +18,8 @@
   "author": "Tommy Jepsen",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^27.0.3"
+    "electron": "^27.0.3",
+    "electron-packager": "^17.1.2"
   },
   "build": {
     "appId": "tommyjepsen.chatgpt",
