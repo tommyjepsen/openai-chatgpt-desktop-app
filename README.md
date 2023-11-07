@@ -1,4 +1,4 @@
-## OpenAI's ChatGPT in a desktop app
+# OpenAI's ChatGPT in a desktop app
 
 Get OpenAI's ChatGPT in a mac app, that is always easily accessible within your OS!
 
@@ -6,7 +6,7 @@ It is essentially just a new browser window, that loads chat.openai.com, but it 
 
 ![Screenshot](https://raw.githubusercontent.com/tommyjepsen/openai-chatgpt-desktop-app/master/screenshot.png)
 
-# How to build
+## How to build
 
 To install all dependencies
 `npm install`
